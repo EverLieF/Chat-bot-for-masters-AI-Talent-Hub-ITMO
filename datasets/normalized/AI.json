@@ -1,0 +1,88 @@
+{
+  "program": "AI",
+  "version": "2024-2026",
+  "source_url": "https://abit.itmo.ru/program/master/ai",
+  "courses": [
+    {
+      "code": "AI101",
+      "name": "Математические методы",
+      "semester": 1,
+      "ects": 6,
+      "type": "required",
+      "module": "Базовая подготовка",
+      "prerequisites": [],
+      "notes": "",
+      "source_ref": "pdf:page=12,row=5"
+    },
+    {
+      "code": "AI121",
+      "name": "Машинное обучение",
+      "semester": 2,
+      "ects": 6,
+      "type": "required",
+      "module": "Профиль",
+      "prerequisites": [
+        "Математические методы"
+      ],
+      "notes": "",
+      "source_ref": "pdf:page=13,row=12"
+    },
+    {
+      "code": "AI231",
+      "name": "Deep Learning",
+      "semester": 3,
+      "ects": 6,
+      "type": "elective",
+      "module": "Профиль",
+      "prerequisites": [
+        "Машинное обучение"
+      ],
+      "notes": "",
+      "source_ref": "pdf:page=22,row=7"
+    },
+    {
+      "code": "AI299",
+      "name": "НИР (исследовательская работа)",
+      "semester": 3,
+      "ects": 12,
+      "type": "required",
+      "module": "НИР",
+      "prerequisites": [],
+      "notes": "",
+      "source_ref": "pdf:page=25,row=3"
+    },
+    {
+      "code": "AI401",
+      "name": "Практика в компаниях",
+      "semester": 4,
+      "ects": 12,
+      "type": "required",
+      "module": "Практика",
+      "prerequisites": [],
+      "notes": "",
+      "source_ref": "pdf:page=27,row=2"
+    }
+  ],
+  "rules": {
+    "total_ects": 120,
+    "min_electives_ects": 24,
+    "per_semester_constraints": {
+      "1": {
+        "min": 24,
+        "max": 36
+      },
+      "2": {
+        "min": 24,
+        "max": 36
+      },
+      "3": {
+        "min": 24,
+        "max": 36
+      },
+      "4": {
+        "min": 24,
+        "max": 36
+      }
+    }
+  }
+}
