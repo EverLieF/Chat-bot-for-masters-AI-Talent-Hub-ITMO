@@ -2,7 +2,7 @@
 
 Обновлённая структура, слегка переименованные модули и поддержка **Mistral** как LLM.
 
-## Новая структура
+## Cтруктура
 ```
 app/
   core/        — конфиг и LLM (Mistral)
@@ -43,7 +43,6 @@ python -m app.webapi  # http://127.0.0.1:8000/docs
 - AI: https://abit.itmo.ru/program/master/ai
 - AI Product: https://abit.itmo.ru/program/master/ai_product
 - Якоря «Скачать учебный план» учтены в пайплайне.
-Доп. источники (недоверенные до верификации) перечислены в первоначальном задании.
 
 ## Как работает Mistral
 - Модуль `app/core/llm.py` вызывает **Mistral Chat Completions** (`/v1/chat/completions`), чтобы **сжать** найденные факты в короткий ответ **без добавления новых фактов**.
@@ -66,6 +65,3 @@ make test     # pytest
 
 ## Контест
 https://contest.yandex.ru/contest/79334/enter
-
-## Публичный репозиторий / Архив
-- Заполните `REPO_LINK.txt` после загрузки на GitHub.
