@@ -1,6 +1,4 @@
-# ITMO Program Assistant — Refactor (Mistral)
-
-Обновлённая структура, слегка переименованные модули и поддержка **Mistral** как LLM.
+# Chat_bot_for_masters_AI-talent-Hub-ITMO
 
 ## Cтруктура
 ```
